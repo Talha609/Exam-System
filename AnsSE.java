@@ -33,8 +33,6 @@ class AnsSE
                     System.out.println("Error");
                 }
             }
-            //String ques[]={"_____________ is the sub-program within main program which process data and return value.","Constructor name is same as ___________ name.","An _________ is set of homogeneous data elements.","class is ____________ that define variable and method common to all object of certain kind.","Syntax for ternary operator."};
-            //String ans[]={"function","class","array","blueprint","condition : statement 1 : statement 2"};
             for(int x=0;x<=result.size();x++)
             {
                 if(q.equals(ques[x]) && a.equals(ans[x]))

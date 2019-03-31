@@ -29,7 +29,7 @@ class FirstSE implements ActionListener
         f.setSize(1100,600);
         p=new JPanel();
         p.setLayout(null);
-        ImageIcon img= new ImageIcon(new ImageIcon("C:\\Users\\MoHd TaLHa\\Downloads\\Project\\united.png").getImage().getScaledInstance(1100, 600, Image.SCALE_DEFAULT));
+        ImageIcon img= new ImageIcon(new ImageIcon("united.png").getImage().getScaledInstance(1100, 600, Image.SCALE_DEFAULT));
         l1=new JLabel();
         que=new JLabel();
         l1.setIcon(img);

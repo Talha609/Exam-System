@@ -27,7 +27,7 @@ class LoginSE implements ActionListener
         f.setSize(600,400);
         p=new JPanel();
         p.setLayout(null);
-        ImageIcon img= new ImageIcon(new ImageIcon("C:\\Users\\MoHd TaLHa\\Downloads\\Project\\united.png").getImage().getScaledInstance(600, 400, Image.SCALE_DEFAULT));
+        ImageIcon img= new ImageIcon(new ImageIcon("united.png").getImage().getScaledInstance(600, 400, Image.SCALE_DEFAULT));
         l=new JLabel();
         l.setIcon(img);
         f.add(p);
@@ -99,7 +99,7 @@ class LoginSE implements ActionListener
                 {
                     if(evt.getSource()==admin)
                     {
-                        if(pass.getText().equals("talha") && id.getText().equals("talha"))
+                        if(pass.getText().equals("admin") && id.getText().equals("admin"))
                         {
                             Admin admin=new Admin();
                             f.setVisible(false);
@@ -139,7 +139,7 @@ class LoginSE implements ActionListener
 
         if(evt.getSource()==admin)
         {
-            if(pass.getText().equals("talha") && id.getText().equals("talha"))
+            if(pass.getText().equals("admin") && id.getText().equals("admin"))
             {
                 Admin admin=new Admin();
                 f.setVisible(false);

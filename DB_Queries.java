@@ -16,7 +16,6 @@ class DB_Queries
             insert=c.prepareStatement("INSERT INTO QuesTable VALUES(?,?,?,?,?)");
             allques=c.prepareStatement("SELECT * FROM QuesTable");
             delete=c.prepareStatement("DELETE FROM QuesTable");
-            //System.out.println("Query Passed");
         }
         catch(Exception e)
         {
@@ -67,16 +66,13 @@ class DB_Queries
             insert.setString(3,o1);
             insert.setString(4,o2);
             insert.setString(5,o3);
-            //result=insert.execute();
             r=insert.executeUpdate();
-            //System.out.println("Products Added");
         }
         catch(SQLException e)
         {
             e.printStackTrace();
             close();
         }
-        //return result;
         return r;
     }
 
@@ -101,7 +97,6 @@ class DB_Queries
             while(resultSet.next())
             {
                 results.add(new Questions(resultSet.getString("Questions"),resultSet.getString("Answer"),resultSet.getString("O1"),resultSet.getString("O2"),resultSet.getString("O3")));
-                //System.out.println(resultSet.getString("Questions"));
             }   
         }   
         catch(Exception e)

@@ -17,7 +17,7 @@ class Admin implements ActionListener
         p=new JPanel();
         f.add(p);
         p.setLayout(null);
-        ImageIcon img= new ImageIcon(new ImageIcon("C:\\Users\\MoHd TaLHa\\Downloads\\Project\\united.png").getImage().getScaledInstance(500, 400, Image.SCALE_DEFAULT));
+        ImageIcon img= new ImageIcon(new ImageIcon("united.png").getImage().getScaledInstance(500, 400, Image.SCALE_DEFAULT));
         JLabel l1=new JLabel();
         l1.setIcon(img);
         f.add(l1);

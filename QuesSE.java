@@ -24,17 +24,12 @@ class QuesSE implements ActionListener
                 currentindex=x;
                 currententry=result.get(currentindex);
                 ques[x]=currententry.getQues().toString().trim();
-                /*ans[x]=currententry.getAns().toString().trim();
-                o1[x]=currententry.getO1().toString().trim(); 
-                o2[x]=currententry.getO2().toString().trim();
-                o3[x]=currententry.getO3().toString().trim();*/
             }
             else
             {
                 System.out.println("Error");
             }
         }
-        //String ques[]={"_____________ is the sub-program within main program which process data and return value.","Constructor name is same as ___________ name.","An _________ is set of homogeneous data elements.","class is ____________ that define variable and method common to all object of certain kind.","Syntax for ternary operator."};
         String que=ques[temp.get(--t)];
         AnsRand();
         return que.toString().trim();
@@ -56,28 +51,12 @@ class QuesSE implements ActionListener
                 ans[x][options.get(1)]=currententry.getO1().toString().trim();
                 ans[x][options.get(2)]=currententry.getO2().toString().trim();
                 ans[x][options.get(3)]=currententry.getO3().toString().trim();
-                /*System.out.println(ans[x][0]);
-                System.out.println(ans[x][1]);
-                System.out.println(ans[x][2]);
-                System.out.println(ans[x][3]);*/
             }
             else
             {
                 System.out.println("Error");
             }
         }
-        //String ans[][]={{"class","variables","function","array"},{"class","array","function","variables"},{"array","list","variables","datatypes"},{"datatype","blueprint","method","package"},{"statement 1 : statement 2 ? condition","condition : statement 1 : statement 2","condition 1 : condition 2 ? statement","None of these"}};
-        /*String que=ans[temp.get(--t)][j++];
-        if(j==4)
-        {
-            i++;
-            if(i==5)
-            {
-            //FirstSE.next.setEnabled(false);
-            }
-            j=0;
-        }
-        return que.toString().trim();*/
     }
 
     public static String Ans(int t)
@@ -86,10 +65,6 @@ class QuesSE implements ActionListener
         if(j==4)
         {
             i++;
-            /*if(i==5)
-            {
-            //FirstSE.next.setEnabled(false);
-            }*/
             j=0;
         }
         return que.toString().trim();
@@ -129,7 +104,6 @@ class QuesSE implements ActionListener
                 num.add(a);
             }
         }
-        //System.out.println(num);
         return num;
     }
 
