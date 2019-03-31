@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DB_Queries()
+comment1.params=name
+comment1.target=java.util.List\ getQues(java.lang.String)
+comment2.params=ques\ ans\ o1\ o2\ o3
+comment2.target=int\ addQues(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=void\ del()
+comment4.params=
+comment4.target=java.util.List\ getAllQues()
+comment5.params=
+comment5.target=void\ close()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

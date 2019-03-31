@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LoginSE()
+comment1.params=evt
+comment1.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment2.params=evt
+comment2.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment3.params=e
+comment3.target=void\ mouseClicked(java.awt.event.MouseEvent)
+comment4.params=evt
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

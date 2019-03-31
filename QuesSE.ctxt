@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=t
+comment0.target=java.lang.String\ Ques(int)
+comment1.params=
+comment1.target=void\ AnsRand()
+comment2.params=t
+comment2.target=java.lang.String\ Ans(int)
+comment3.params=evt
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=
+comment4.target=java.util.ArrayList\ Random()
+comment5.params=
+comment5.target=java.util.ArrayList\ RandomOptions()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
